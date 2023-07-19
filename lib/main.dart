@@ -1,4 +1,5 @@
 import 'package:dark_mode/views/home_page.dart';
+import 'package:dark_mode/views/signup.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home:  HomePage(),
+      home:  Country(),
     );
   }
 }
